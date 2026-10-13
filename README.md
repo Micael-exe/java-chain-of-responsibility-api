@@ -24,20 +24,13 @@ Se qualquer elo falhar, o fluxo é interrompido imediatamente e a API retorna um
    ```bash
    git clone [https://github.com/Micael-exe/spring-chain-of-responsibility.git](https://github.com/Micael-exe/spring-chain-of-responsibility.git)
    Acesse a pasta do projeto pelo terminal:
-
-## Bash
-cd spring-chain-of-responsibility
-Execute a aplicação usando o Maven Wrapper:
-
-No Linux / macOS / Git Bash (Windows):
-
-## Bash
-./mvnw spring-boot:run
-No Windows (PowerShell):
-
-## Bash
-mvn spring-boot:run
-A API subirá localmente na porta 8080.
+   cd spring-chain-of-responsibility
+   Execute a aplicação usando o Maven Wrapper:
+   No Linux / macOS / Git Bash (Windows):Bash
+   ./mvnw spring-boot:run
+   No Windows (PowerShell):
+   mvn spring-boot:run
+   A API subirá localmente na porta 8080.
 
 ## 🧪 Como Testar a API
 Você pode utilizar ferramentas como Postman, Insomnia ou extensões de testes HTTP no VS Code para enviar uma requisição POST para o endpoint:
